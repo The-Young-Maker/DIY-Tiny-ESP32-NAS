@@ -1,0 +1,2 @@
+WiFi Name
+WiFi Password
