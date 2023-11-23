@@ -102,7 +102,7 @@ If you want to develop custom apps for TinyNAS, you can make use of the followin
   server.on("/api/info/wifi", HTTP_GET, HandleWiFiInfo);
 ```
 
-Note that for POST paramter, please put them in the URL paramter (e.g. /api/fs/search?keyword=.mp3) instead of POST body, as ESP8266 do not have enough memory to parse the body.
+Note that for POST paramter, please put them in the URL paramter (e.g. /api/fs/search?keyword=.mp3) instead of POST body, as esp32 do not have enough memory to parse the body.
 
 
 
